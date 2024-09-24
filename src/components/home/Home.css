@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    height: 3750px;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    /* background-color: #aca6ae; */
+    background-image: url(./image.jpg);
+}

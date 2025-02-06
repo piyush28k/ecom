@@ -22,7 +22,7 @@ const Products = () => {
                   onClick={()=>{navigate(`ProductDetail/${product.id}`)}}
                   src={product.image}
                   // alt={product.text}
-                  className=" h-full w-full object-cover object-center group-hover:opacity-75 cursor-pointer"
+                  className=" h-full w-full object-cover object-center cursor-pointer"
                 />
               </div>
               <p className="mt-1 font-medium text-gray-900 px-2">{product.title}</p>
